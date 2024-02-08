@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  flex: 1;
+}
+
+.main i {
+  color: midnightblue;
+}
+
+div {
+  display: inline-block;
+  /* border: 1px solid orange; */
+  height: auto;
+  margin-bottom: 25px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+div.card {
+  width: 47%;
+}
+
+h2 {
+  padding: 0px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.tile-image {
+  height: 12rem;
+  float: left;
+  margin-right: 2em;
+}
+
+.card p {
+  font-size: 1em;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+/* Phone Screens */
+@media (max-width: 700px) {
+  .logo {
+    height: 1rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  h2 {
+    padding: 0px;
+  }
+
+  div.card {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .left {
+    float: none;
+  }
+
+  .right {
+    float: none;
+  }
+
+  .tile-image {
+    height: 12rem;
+    float: none;
+    margin: 0px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
